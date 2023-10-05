@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiAlert } from "./components/MuiAlert";
 // import { MuiChip } from "./components/MuiChip";
 // import { MuiList } from "./components/MuiList";
 // import { MuiAvatar } from "./components/MuiAvatar";
@@ -8,7 +9,7 @@ import "./App.css";
 // import { MuiDrawer } from "./components/MuiDrawer";
 // import { MuiLink } from "./components/MuiLink";
 import { MuiNavBar } from "./components/MuiNavBar";
-import { MuiTable } from "./components/MuiTable";
+// import { MuiTable } from "./components/MuiTable";
 // import { MuiTooltip } from "./components/MuiTooltip";
 // import { MuiSpeedDial } from "./components/MuiSpeedDial";
 // import { MuiImageList } from "./components/MuiImageList";
@@ -52,7 +53,8 @@ function App() {
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
-      <MuiTable />
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   );
 }
