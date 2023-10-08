@@ -1,4 +1,6 @@
+import { Dialog } from "@mui/material";
 import "./App.css";
+import { MuiDialog } from "./components/MuiDialog";
 // import { MuiAlert } from "./components/MuiAlert";
 // import { MuiChip } from "./components/MuiChip";
 // import { MuiList } from "./components/MuiList";
@@ -57,6 +59,7 @@ function App() {
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
+      <MuiDialog />
     </div>
   );
 }
