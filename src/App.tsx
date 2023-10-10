@@ -1,6 +1,5 @@
-import { Dialog } from "@mui/material";
 import "./App.css";
-import { MuiDialog } from "./components/MuiDialog";
+// import { MuiDialog } from "./components/MuiDialog";
 // import { MuiAlert } from "./components/MuiAlert";
 // import { MuiChip } from "./components/MuiChip";
 // import { MuiList } from "./components/MuiList";
@@ -11,6 +10,7 @@ import { MuiDialog } from "./components/MuiDialog";
 // import { MuiDrawer } from "./components/MuiDrawer";
 // import { MuiLink } from "./components/MuiLink";
 import { MuiNavBar } from "./components/MuiNavBar";
+import { MuiProgress } from "./components/MuiProgress";
 // import { MuiSnackbar } from "./components/MuiSnackbar";
 // import { MuiTable } from "./components/MuiTable";
 // import { MuiTooltip } from "./components/MuiTooltip";
@@ -59,7 +59,8 @@ function App() {
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
-      <MuiDialog />
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
   );
 }
