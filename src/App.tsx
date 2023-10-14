@@ -10,7 +10,8 @@ import "./App.css";
 // import { MuiDrawer } from "./components/MuiDrawer";
 // import { MuiLink } from "./components/MuiLink";
 import { MuiNavBar } from "./components/MuiNavBar";
-import { MuiProgress } from "./components/MuiProgress";
+import { MuiSkeleton } from "./components/MuiSkeleton";
+// import { MuiProgress } from "./components/MuiProgress";
 // import { MuiSnackbar } from "./components/MuiSnackbar";
 // import { MuiTable } from "./components/MuiTable";
 // import { MuiTooltip } from "./components/MuiTooltip";
@@ -60,7 +61,8 @@ function App() {
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgress />
+      {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   );
 }
